@@ -1,0 +1,42 @@
+To compile this program, you must have Turbo Pascal 6.0.
+
+Type TPC /B WWIVEDIT.PAS
+
+SOURCE   DOC This File
+CURSORS  PAS Handles changing cursor from full block to underscore
+EXECSWAP PAS Unit to swap out to disk for DOS shell
+EXECSWAP OBJ Needed for above
+WWIVEDIT PAS Main program unit *** Compile this ***
+NEWCRT   PAS CRT unit which handles direct video if enabled
+WECOMP   PAS Compression code for the dictionary
+WEDEFAUL PAS User Defaults
+WEDICTN  PAS Spell checker
+WEDOS    PAS Handles the interface between ExecSwap and WWIVEdit
+WEFILE   PAS Handles Loading/Saving Files
+WEFOSSIL PAS Fossil Driver code
+WESETUP  PAS Code used to translate *.KEY to *.KBD and *.DEF to *.SET
+WEINPUT  PAS Most of the input routines
+WEHELP   PAS The help interface
+WEKBD    PAS Low level input routines
+WELINE   PAS Internal line handling routines
+WEMEMORY PAS Interface to EMS routines
+WEMOUSE  PAS Mouse handling routines
+WEREPLY  PAS Reply handling routines
+WEOUTPUT PAS Most of the high level output routines
+WESTRING PAS Low level string routines
+WETAG    PAS Tag Lines interface
+WETIME   PAS Low level timer routines
+WETITLE  PAS Handles figuring out the title from the screen
+WEUSER   PAS Handles loading and saving of user information
+WEFUNC   PAS The Editing functions
+WEFUNC1  PAS Overlaid editing functions
+WEVARS   PAS The Global Variables and Types
+WEGLOBAL PAS Global Compiler Directives
+WEINIT   PAS Initialization code
+WWIVOUTP PAS Output interface layer
+INSTALL  PAS Install Program
+WECHAT   PAS Chat Unit
+MODIFY   PAS A program that will allow you to modify the Color map
+NEW      BAT A batch file that combines the EXE and OVR file to one file
+WECOM    PAS Asynch com routines
+WEQUOTE  PAS Quoter

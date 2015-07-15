@@ -1,0 +1,68 @@
+File INSTALL.PAS:
+    gotoxy(1,i);
+    gotoxy(x2-x1+1,i);
+  gotoxy(1,y2-y1+1);
+  gotoxy(((x1+x2) div 2) - length(title) DIV 2,1);
+  gotoxy(x,y);
+        gotoxy(x,y);
+                gotoxy(x+cx-1,y);
+    gotoxy(x+cx-1,y);
+  gotoxy(1,wherey);
+File MODIFY.PAS:
+      gotoxy(1,25);
+      gotoxy((c mod 13)*6+4,c div 13+1);
+    gotoxy(1,25); clreol;
+    gotoxy(1,24); clreol;
+    gotoxy((c mod 13)*6+1,c div 13+1);
+  gotoxy(1,22);
+File WECHAT.PAS:
+        gotoxy(1,RemoteTop+x-1);
+        gotoxy(1,x);
+    gotoxy(rx,ry);
+        gotoxy(1,x);
+        gotoxy(1,x);
+    gotoxy(lx,ly);
+    gotoxy(1,l);
+  gotoxy(1,RemoteTop-1);
+  gotoxy(lx,ly);
+        gotoxy(lx,ly);
+        gotoxy(rx,ry);
+File WEDICTN.PAS:
+    gotoxy(7,3);    Ansic('2');    write(l);
+          gotoxy(1,4);
+          gotoxy(1,7);
+                    gotoxy(1,8);
+                      gotoxy(((i-1) DIV 15) * 40+1, i mod 15 + 7);
+                    gotoxy(1,8);
+            gotoxy(1,i);
+File WEHELP.PAS:
+    gotoxy(20*((x-1) mod 4)+1,((x-1) div 4) +2);
+      gotoxy(1,22);
+File WEINPUT.PAS:
+          IF wherex<>x+i-1 THEN gotoxy(x+i-1,y);
+        gotoxy(x+length(l.l),y);
+    gotoxy(x+cx-1,y);
+File WEOUTPUT.PAS:
+  wwivoutp.gotoxy(x,y)
+    gotoxy(p,py);
+        gotoxy(len(y) + 1, py);             { move to the end of it }
+    gotoxy(cx,cy+WindowTop-ViewTop);
+    gotoxy(1,1);
+      gotoxy(40,wherey);
+    IF ScreenState=4 THEN gotoxy(1,1);
+  gotoxy(1,WindowBottom+2);
+File WETAG.PAS:
+        gotoxy(1,3*(ord(ch)-ord('0')-1)+2);
+        gotoxy(40,10+info.method);
+        gotoxy(1,10+i);
+        gotoxy(1,10+info.method);
+        gotoxy(1,3*(i-1)+2);
+File WWIVEDIT.PAS:
+      gotoxy(6,WindowBottom+1);
+    gotoxy(9,1);
+       BEGIN gotoxy(9,1); ansic('1'); write(title); END;
+    gotoxy(cx,cy+WindowTop-ViewTop); { Put the cursor in the right position }
+File WWIVOUTP.PAS:
+    NewCrt.gotoxy(x,y)
+  gotoxy(1,1);
+  IF Translate=DirectVideo THEN gotoxy(d.x,d.y)
